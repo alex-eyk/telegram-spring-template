@@ -1,6 +1,6 @@
 package com.alex.eyk.replies.processor.generator
 
-import com.alex.eyk.replies.processor.Argument
+import com.alex.eyk.replies.dictionary.Argument
 import com.alex.eyk.replies.util.CaseUtils
 import com.alex.eyk.replies.util.removeLastChars
 import com.squareup.kotlinpoet.*

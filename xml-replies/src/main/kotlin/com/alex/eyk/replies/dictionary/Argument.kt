@@ -1,4 +1,4 @@
-package com.alex.eyk.replies.processor
+package com.alex.eyk.replies.dictionary
 
 data class Argument(
     val query: String,

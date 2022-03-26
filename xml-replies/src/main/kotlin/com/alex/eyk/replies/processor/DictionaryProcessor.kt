@@ -1,5 +1,6 @@
 package com.alex.eyk.replies.processor
 
+import com.alex.eyk.replies.dictionary.Argument
 import com.alex.eyk.replies.dictionary.Dictionary
 import com.alex.eyk.replies.processor.generator.ArgsBuilderGenerator
 import com.alex.eyk.replies.processor.generator.TypeGenerator
