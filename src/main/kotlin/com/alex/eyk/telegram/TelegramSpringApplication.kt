@@ -1,4 +1,4 @@
-package com.alex.eyk.telegram.telegram
+package com.alex.eyk.telegram
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication

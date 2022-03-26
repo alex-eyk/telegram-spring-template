@@ -1,6 +1,6 @@
 package com.alex.eyk.replies.xml.impl
 
-import com.alex.eyk.replies.processor.Argument
+import com.alex.eyk.replies.dictionary.Argument
 import com.alex.eyk.replies.xml.AbstractXmlParser
 import com.alex.eyk.replies.xml.attrs.getArgumentName
 import com.alex.eyk.replies.xml.attrs.getArgumentQuery
