@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class TelegramSpringTemplateApplication
+class TelegramSpringApplication
 
 fun main(args: Array<String>) {
-    runApplication<TelegramSpringTemplateApplication>(*args)
+    runApplication<TelegramSpringApplication>(*args)
 }
