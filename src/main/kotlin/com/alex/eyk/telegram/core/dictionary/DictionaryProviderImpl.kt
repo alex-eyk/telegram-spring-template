@@ -8,5 +8,5 @@ const val DICTIONARY_DIRECTORY = "dictionary/"
 
 @Service
 class DictionaryProviderImpl : AbstractDictionaryProvider(
-    ResourceUtils.scanResourceDirectory(DICTIONARY_DIRECTORY)
+    ResourceUtils.findDictionaries(DICTIONARY_DIRECTORY)
 )
