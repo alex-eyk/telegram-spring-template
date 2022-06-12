@@ -9,7 +9,9 @@ import com.alex.eyk.replies.dictionary.exception.NoSuchWordException
 import com.alex.eyk.replies.xml.impl.DictionaryParser
 import java.io.File
 
-abstract class AbstractDictionaryProvider(dictionaryFiles: Set<File>) : DictionaryProvider {
+abstract class AbstractDictionaryProvider(
+    dictionaryFiles: Iterable<File>
+) : DictionaryProvider {
 
     private val dictionaries: Map<String, Dictionary>
     private val languages: Map<String, Language>
